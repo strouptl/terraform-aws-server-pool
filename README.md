@@ -1,6 +1,7 @@
 # AWS Server Pool Module
-A Terraform/OpenTofu module for creating an autoscaling server pool (e.g. for background workers) in AWS
-NOTE: This module is different from the "Server Stack" module, in that it does not include a public facing load balancer.
+A Terraform/OpenTofu module for creating an autoscaling server pool (e.g. for background workers) in AWS.
+
+NOTE: This module is different from the [AWS Server Stack](https://github.com/strouptl/terraform-aws-server-stack) module, in that it does not include a public facing load balancer.
 
 ## Example Usage
 Insert the following into your main.tf file:
